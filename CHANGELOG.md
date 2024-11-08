@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0] - 2024-11-08
+- Add `disableEdit` offramp parameter
+
+## [2.3.0] - 2024-10-21
+- Add Offramp support with `generateOffRampURL` and `initOffRamp` functions
+
+## [2.2.1] - 2024-08-01
+- Added `redirectUrl` widget parameter
+
+## [2.2.0] - 2024-06-11
+- Added new `addresses` and `assets` initialization parameters to simplify `destinationWallets`
+- Marked the `destinationWallets` initialization parameter as deprecated
+- Added warning message about upcoming deprecation of the embedded experience
+- Simplified the `CoinbasePixel` class to improve widget initialization latency
+- Fix example code in README
+
+## [2.1.0] - 2024-03-14
+- Add `theme` parameter
+
 ## [2.0.0] - 2024-01-25
 - [BREAKING CHANGE] Rename `onrampToken` parameter to `sessionToken`
 
